@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Un poco de mi vida</title>
+  <meta name="description" content="Pasiones y vida fuera de la pantalla.">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="bg" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span></div>
+  <div class="progress" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><div class="cursor-face"></div></div>
+
+  <header class="nav" id="inicio">
+    <a class="logo" href="#inicio">
+      <small>PORTAFOLIO</small>
+      <strong>ANDERSONTORO</strong>
+    </a>
+    <nav aria-label="Principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#vida">Mi vida</a>
+      <a href="#intereses">Intereses</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="vida">
+
+      <div class="content">
+        <h1>
+          <span class="word c1"><span style="--w:0">Un</span></span>
+          <span class="word c2"><span style="--w:1">poco</span></span>
+          <span class="word c3"><span style="--w:2">de</span></span>
+          <span class="word"><span style="--w:3">mi</span></span>
+          <span class="word"><span style="--w:4">vida</span></span>
+        </h1>
+
+        <p class="intro a" style="--i:1">
+          Soy estudiante de ADSO. Fuera de eso, soy una persona a la que le gusta mucho jugar en el celular y en el computador, y también el deporte: el gimnasio, el voleibol, el fútbol y cualquier otro deporte.
+        </p>
+        <div class="grid" id="intereses">
+
+          <article class="card a" style="--i:2" data-cursor-img="juegos.jpeg">
+            <div class="card-head">
+              <div class="emoji" aria-hidden="true">🎮</div>
+              <h2>Juegos</h2>
+            </div>
+            <p>Me gusta jugar en mi celular y computador cualquier tipo de juego para pasar el rato.</p>
+          </article>
+
+          <article class="card a" style="--i:3" data-cursor-img="gim.jpeg">
+            <div class="card-head">
+              <div class="emoji" aria-hidden="true">🏐</div>
+              <h2>Deporte y actividad física</h2>
+            </div>
+            <p>Me gusta jugar voleibol, que es uno de mis deportes favoritos, y cualquier otro deporte. También voy al gimnasio.</p>
+          </article>
+
+          <article class="card a" style="--i:4" data-cursor-img="musica.jpeg">
+            <div class="card-head">
+              <div class="emoji" aria-hidden="true">🎧</div>
+              <h2>Escuchar música</h2>
+            </div>
+            <p>Me gusta estar con audífonos escuchando música tranquilo a cualquier hora, hasta para dormir.</p>
+          </article>
+
+          <article class="card a" style="--i:5" data-cursor-img="familia.jpeg">
+            <div class="card-head">
+              <div class="emoji" aria-hidden="true">👨‍👩‍👧</div>
+              <h2>Familia y amigos</h2>
+            </div>
+            <p>Me gusta hablar con ellos, pasar tiempo de calidad y crear recuerdos.</p>
+          </article>
+
+        </div>
+      </div>
+
+      <figure class="visual" data-cursor-img="mancha.jpeg">
+        <span class="halo" aria-hidden="true"></span>
+        <div class="float">
+          <div class="tilt">
+            <img src="mancha.jpeg" alt="Foto de Anderson" width="600" height="700">
+          </div>
+        </div>
+      </figure>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
